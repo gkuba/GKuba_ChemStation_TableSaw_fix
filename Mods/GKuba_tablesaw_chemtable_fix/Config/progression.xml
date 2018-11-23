@@ -1,0 +1,9 @@
+<configs>
+	<!-- Updates the progression, under the Advanced Engineering, to change the tags to unlock Table Saw -->
+
+  	<append xpath="//perk[@name='perkAdvancedEngineering']/effect_group[1]/passive_effect[1]/@tags">,tableSaw</append>
+
+	<!-- Updates the progression, under the Yeah Science, to change the tags to unlock Chemistry Station -->
+
+    <append xpath="//perk[@name='perkYeahScience']/effect_group[1]/passive_effect[1]/@tags">,chemistryStation</append>
+</configs>
